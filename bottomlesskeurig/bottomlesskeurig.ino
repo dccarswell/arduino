@@ -91,5 +91,7 @@ void loop() {
     display.setBrightness(BRIGHTNESS7,false);
   }
   Serial.println("idle");
+  display.clear();
+  display.setBrightness(BRIGHTNESS7,false);
   delay(idle_delay);
 }
